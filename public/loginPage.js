@@ -1,4 +1,4 @@
-let userForm = new userForm();
+let userForm = new UserForm();
 
 userForm.loginFormCallback = function(data) {
   ApiConnector.login(data, response => {
